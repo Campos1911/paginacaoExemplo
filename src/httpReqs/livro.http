@@ -1,0 +1,10 @@
+###
+POST http://localhost:3333/livro
+Content-Type: application/json
+
+{
+    "nome": "LIVRO"
+}
+
+###
+GET http://localhost:3333/livro/get?page=1&limit=100

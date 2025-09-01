@@ -1,0 +1,17 @@
+### Registro de usuário
+POST http://localhost:3333/register
+Content-Type: application/json
+
+{
+  "email": "teste@teste.com",
+  "senha": "12345678"
+}
+
+### Login de usuário
+POST http://localhost:3333/login
+Content-Type: application/json
+
+{
+  "email": "teste@teste.com",
+  "senha": "12345678"
+}

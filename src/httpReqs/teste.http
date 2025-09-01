@@ -1,0 +1,16 @@
+### Rota pública
+GET http://localhost:3333/public
+Accept: application/json
+
+###
+
+### Rota protegida sem token (deve dar erro 401)
+GET http://localhost:3333/private
+Accept: application/json
+
+###
+
+### Rota protegida com token válido
+GET http://localhost:3333/private
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU3YWFiYWYyLWFkZjgtNGU2YS05MDU4LTEzZjAxZDEwOGMzNyIsImVtYWlsIjoidGVzdGVAdGVzdGUuY29tIiwiaWF0IjoxNzU2MzA3ODUxLCJleHAiOjE3NTYzMTE0NTF9.vd-Z96cgoFfwck9jxE2mIPHevuw9t8VEK1T6332sxZg
